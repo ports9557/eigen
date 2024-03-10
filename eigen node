@@ -5,6 +5,8 @@ eigen node test net
 install go
 
 
+
+this is test node
 sudo apt update
 
 sudo apt upgrade
