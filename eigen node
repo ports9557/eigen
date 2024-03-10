@@ -4,7 +4,7 @@ eigen node test net
 ----------------------------------------------------------------
 install go
 
-
+install russ
 sudo apt update
 
 sudo apt upgrade
@@ -55,7 +55,7 @@ sudo groupadd docker
 sudo usermod -aG docker $USER
 newgrp docker
 
-docker run hello-world
+docker run hello-world-this is up
 
 -------------------------------------------------------------------
 eigenlayer install
@@ -75,6 +75,8 @@ nano operator.yaml
 0xD11d60b669Ecf7bE10329726043B3ac07B380C22
 
 0xc81d3963087Fe09316cd1E032457989C7aC91b19
+
+
 
 eigenlayer operator register operator.yaml
 
